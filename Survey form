@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<meta charset="UTF-8">
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id="title">How do you feel about coding?</h1>
+  <p id="description">This is a survey about your journey in the coding world</p>
+  <form id="survey-form">
+    <fieldset>
+    <label id="name-label">Your name: <input id="name" type="text" required placeholder="Jan"><br></input></label>
+    <label id="email-label">Email :<input id="email" type="email" required placeholder="jankowalski@email.com"></input></label><br>
+      <label id="number-label"> Age: <input id="number" type="number" min="1" max="99" placeholder='5'></label>
+      </fieldset>
+      <fieldset>Gender:
+        
+      <select id="dropdown">
+        <option>Male</option>
+        <option>Female</option>
+      </select>
+      </fieldset>
+      <fieldset>Which one of these you would like to become in the future? <br>
+      <label>Front-end Developer <input type="radio" value="Front-end Developer" name="option 1"></input></label>
+      <label>Back-end Developer <input type="radio" value="Back-end Developer" name="option 2"></input></label>
+      </fieldset>
+      <fieldset>Is coding hard for you?<br>
+      <label>Yes <input type="radio" value="positive" name="option 1"></input></label>
+      <label>No <input type="radio" value="negative" name="option 2"></input></label>
+      </fieldset>
+      <fieldset>Do you want to learn a new programming language besides the one that you're studying right now?<br>
+        <label>Yes <input type="checkbox" value="positive"></input></label>
+        <label>No <input type="checkbox" value="negative"></input></label>
+      </fieldset>
+      <fieldset><label>Tell us something about yourself. What programming language are you currently learning? What is your goal after learning the specific languages?<br><br> <textarea></textarea></label></fieldset><br>
+      <input id='submit' type='submit'></input>
+  </form>
+</body>
+</html>
